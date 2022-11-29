@@ -1,6 +1,39 @@
-.hero {
-  border: 20px;
+body {
+  font-family: "Roboto", sans-serif;
 }
 .web {
-  color: 2196F3;
+  color: rgba(33, 150, 243, 1);
+}
+.text-black {
+  color: rgba(0, 0, 0, 1);
+}
+.text-white {
+  color: rgba(255, 255, 255, 1);
+}
+.hero {
+  background-color: rgba(47, 48, 58, 1);
+}
+h1 {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+button {
+  background-color: rgba(33, 150, 243, 1);
+  text-align: center;
+  color: #ffffff;
+}
+.name {
+  color: rgba(33, 33, 33, 1);
+}
+.proffession {
+  color: rgba(117, 117, 117, 1);
+}
+.footer-style {
+  background-color: rgba(47, 48, 58, 1);
+}
+.address-mail-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
