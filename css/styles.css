@@ -4,7 +4,7 @@
 .text-black {
   color: rgba(0, 0, 0, 1);
 }
-.text-white {
+.link {
   color: rgba(255, 255, 255, 1);
 }
 .hero {
@@ -17,12 +17,11 @@
 h1 {
   color: rgba(255, 255, 255, 1);
   text-align: center;
-  position: absolute;
 }
 ul {
   list-style: none;
 }
-p {
+.article-text {
   color: rgba(117, 117, 117, 1);
 }
 .button-header {
@@ -42,10 +41,23 @@ p {
 .footer-style {
   background-color: rgba(47, 48, 58, 1);
 }
-.address-mail-tel {
-  color: rgba(255, 255, 255, 0.6);
-}
 .logo {
   text-decoration: none;
-  color: red;
+  color: rgba(255, 255, 255, 1);
+}
+.link-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-https {
+  color: rgba(255, 255, 255, 1);
+}
+.links-navi .navi {
+  color: rgba(33, 33, 33, 1);
+}
+.links-navi .navi:hover,
+.navi:focus {
+  color: rgba(33, 150, 243, 1);
 }
