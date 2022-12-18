@@ -5,34 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zadanie domowe1</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Roboto", sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header-box">
       <h2 class="links-navi">
-        <a class="logo" href="/index.html"
+        <a class="logo-head" href="/index.html"
           ><span class="web">Web</span><span class="text-black">Studio</span></a
         >
       </h2>
       <nav>
-        <ul class="links-navi">
+        <ul class="links navi">
           <li><a class="navi" href="#">Agencja</a></li>
           <li><a class="navi" href="./portfolio.html">Portfolio</a></li>
           <li><a class="navi" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="links-navi">
+      <ul class="links navi mix">
         <li>
           <a class="navi" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -43,37 +39,37 @@
     </header>
     <main>
       <!--Hero-->
-      <section>
-        <div class="hero">
-          <h1 class="text"><br>EFEKTYWNE ROZWIĄZANIA</br> DLA WASZEGO BIZNESU</h1>
-          <button class="button-header" type="button">Zamów usługę</button>
+      <section class="hero-box">
+        <div class="box">
+          <h1 class="hero-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button-first" type="button">Zamów usługę</button>
         </div>
       </section>
       <!--Nasze możliwości-->
       <section>
-        <div>
-          <h3>Lorem ipsum</h3>
+        <div class="article text">
+          <h3 class="article">Lorem ipsum</h3>
           <p class="article-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at
             repudiandae laborum maxime ipsum? Nisi explicabo sunt aperiam vel
             sapiente nobis vitae impedit odit, doloremque, perferendis
             distinctio molestias beatae sit?
           </p>
-          <h3>Lorem ipsum</h3>
+          <h3 class="article">Lorem ipsum</h3>
           <p class="article-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at
             repudiandae laborum maxime ipsum? Nisi explicabo sunt aperiam vel
             sapiente nobis vitae impedit odit, doloremque, perferendis
             distinctio molestias beatae sit?
           </p>
-          <h3>Lorem ipsum</h3>
+          <h3 class="article">Lorem ipsum</h3>
           <p class="article-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at
             repudiandae laborum maxime ipsum? Nisi explicabo sunt aperiam vel
             sapiente nobis vitae impedit odit, doloremque, perferendis
             distinctio molestias beatae sit?
           </p>
-          <h3>Lorem ipsum</h3>
+          <h3 class="article">Lorem ipsum</h3>
           <p class="article-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at
             repudiandae laborum maxime ipsum? Nisi explicabo sunt aperiam vel
@@ -84,7 +80,7 @@
       </section>
       <section>
         <!--Czym się zajmujemy-->
-        <h2>Czym sie zajmujemy</h2>
+        <h2 class="occupation">Czym sie zajmujemy</h2>
         <ul>
           <li>
             <img src="images/1a.jpg" alt="coding" width="370" height="294" />
@@ -109,7 +105,7 @@
       </section>
       <section>
         <!--Nasz zespół-->
-        <h2>Nasz zespół</h2>
+        <h2 class="our-team">Nasz zespół</h2>
 
         <ul>
           <li>
@@ -121,8 +117,8 @@
                 height="260"
               />
               <figcaption>
-                <span class="name">John Doe</span>
-                <span class="proffession">Designer</span>
+                <span class="name">John Doe</span><br />
+                <span class="proffession">Product Designer</span>
               </figcaption>
             </figure>
           </li>
@@ -135,7 +131,7 @@
                 height="260"
               />
               <figcaption>
-                <span class="name">John Doe</span>
+                <span class="name">John Doe</span><br />
                 <span class="proffession">Fronted Deweloper</span>
               </figcaption>
             </figure>
@@ -149,7 +145,7 @@
                 height="260"
               />
               <figcaption>
-                <span class="name">John Doe</span>
+                <span class="name">John Doe</span><br />
                 <span class="proffession">Marketing</span>
               </figcaption>
             </figure>
@@ -163,7 +159,7 @@
                 height="260"
               />
               <figcaption>
-                <span class="name">John Doe</span>
+                <span class="name">John Doe</span><br />
                 <span class="proffession">UI Designer</span>
               </figcaption>
             </figure>
@@ -172,9 +168,9 @@
       </section>
     </main>
     <footer>
-      <div class="footer-style">
+      <section class="footer-style">
         <h2>
-          <a class="logo" href="index.html"
+          <a class="logo-footer" href="index.html"
             ><span class="web">Web</span
             ><span class="text-white">Studio</span></a
           >
@@ -199,7 +195,7 @@
             </li>
           </ul>
         </address>
-      </div>
+      </section>
     </footer>
   </body>
 </html>
