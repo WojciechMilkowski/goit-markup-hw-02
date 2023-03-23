@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
 .header-box {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -22,7 +25,6 @@
 .navi {
   color: rgba(33, 33, 33, 1);
   text-decoration: none;
-  font-family: "Roboto";
 }
 .navi:hover {
   color: rgba(33, 150, 243, 1);
@@ -42,10 +44,8 @@ ul {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Roboto";
 }
 .article-text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -60,7 +60,6 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 280px;
-  font-family: "Roboto";
 }
 .hero-text {
   max-width: 696px;
@@ -74,7 +73,6 @@ ul {
   margin: auto;
 }
 .button-first {
-  font-family: "Roboto";
   font-weight: 700;
   line-height: 1.88;
   font-size: 16px;
@@ -93,7 +91,6 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .max {
-  font-family: "Roboto";
   font-weight: 700;
   line-height: 1.88;
   font-size: 16px;
@@ -112,7 +109,6 @@ ul {
 }
 
 .name {
-  font-family: "Roboto";
   color: rgba(33, 33, 33, 1);
   font-size: 16px;
   font-weight: 500;
@@ -120,7 +116,6 @@ ul {
 }
 .department {
   color: rgba(117, 117, 117, 1);
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -129,7 +124,6 @@ ul {
 }
 .objects {
   color: rgba(33, 33, 33, 1);
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -137,7 +131,6 @@ ul {
   letter-spacing: 0.06em;
 }
 .proffession {
-  font-family: "Roboto";
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
   font-weight: 400;
@@ -147,13 +140,11 @@ ul {
   text-align: center;
   font-size: 36px;
   letter-spacing: 0.03em;
-  font-family: "Roboto";
 }
 .our-team {
   text-align: center;
   font-size: 36px;
   letter-spacing: 0.03em;
-  font-family: "Roboto";
 }
 .footer-style {
   background-color: rgba(47, 48, 58, 1);
@@ -177,7 +168,6 @@ ul {
 }
 
 .link-mail {
-  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -185,7 +175,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .link-tel {
-  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -193,7 +182,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .link-https {
-  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
   font-style: normal;
